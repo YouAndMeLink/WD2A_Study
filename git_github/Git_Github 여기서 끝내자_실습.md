@@ -12,7 +12,7 @@
 
 **git config --global user.name "your_name"**
 
-![](%EC%9D%B4%EB%AF%B8%EC%A7%80/%EA%B7%B8%EB%A6%BC1.jpg)
+![](./image/그림1.jpg)
 
 \- Step 2: 유저 이메일 설정하기
 
