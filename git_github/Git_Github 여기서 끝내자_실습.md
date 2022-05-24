@@ -20,13 +20,13 @@
 
 Github가입시 사용한 이메일을 써주세요!
 
-![](%EC%9D%B4%EB%AF%B8%EC%A7%80/%EA%B7%B8%EB%A6%BC2.jpg)
+![](./image/그림2.jpg)
 
 \- Step 3: 정보 확인하기
 
 **git config –list**
 
-![](%EC%9D%B4%EB%AF%B8%EC%A7%80/%EA%B7%B8%EB%A6%BC3.jpg)
+![](./image/그림3.jpg)
 
 ## **Github에 처음 코드 업로드하기 🏋️‍♂️**
 
@@ -58,7 +58,7 @@ m 은 메세지의 준말로 뒤의 “” 안에 주고 싶은 히스토리 이
 
 이 명령어는 github에서 복사해서 붙여 와야 함
 
-![](%EC%9D%B4%EB%AF%B8%EC%A7%80/%EA%B7%B8%EB%A6%BC4.jpg)
+![](./image/그림4.jpg)
 
 6. 잘 연결됐는지 확인 (선택사항)
 
