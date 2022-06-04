@@ -38,9 +38,50 @@ $ git checkout -b <branch>
 ```
 - `-b` 옵션을 넣으면 브랜치 작성과 체크아웃을 한꺼번에 실행 가능
 
+#### 브랜치명 변경
 ```sh
 $ git add <파일명>
 $ git commit -m "메세지 입력"
 ```
 - `-m` 옵션을 넣으면 커밋 설명 추가 가능하다.
 
+#### 브랜치 병합
+```sh
+$ git merge <commit>
+```
+
+#### 브랜치 생성과 이동
+```sh
+$ $ git checkout -b <branch name>
+```
+- 브랜치 생성과 체크아웃을 한번에 하려면 `git checkout -b <브랜치이름>`을 입력한다.
+
+#### 브랜치 관리
+##### 현재 브랜치 확인
+```sh
+$ git branch
+$ git branch -v
+```
+- `$ git branch -v` 는 등록된 브랜치의 상세한 정보를 확인 가능하다.
+
+##### 브랜치 상태 확인
+-- `merged` 옵션
+```sh
+$ git branch --merged
+```
+- 이미 merge 한 브랜치 목록을 확인
+
+-- `no-merged` 옵션
+```sh
+$ git branch --no-merged
+```
+- 현재 Checkout한 브랜치에 Merge 하지 않은 브랜치 조회
+
+#### 브랜치 삭제
+```sh
+$ git branch -D <branch name>
+```
+
+
+## 출처
+https://mylko72.gitbooks.io/git/content/branch/checkout.html
