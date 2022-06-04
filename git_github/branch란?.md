@@ -84,5 +84,5 @@ $ git branch -D <branch name>
 
 
 ## 출처
-https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html <
+https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html <br> 
 https://mylko72.gitbooks.io/git/content/branch/checkout.html
