@@ -57,21 +57,21 @@ $ $ git checkout -b <branch name>
 - 브랜치 생성과 체크아웃을 한번에 하려면 `git checkout -b <브랜치이름>`을 입력한다.
 
 #### 브랜치 관리
-##### 현재 브랜치 확인
+##### 1. 현재 브랜치 확인
 ```sh
 $ git branch
 $ git branch -v
 ```
 - `$ git branch -v` 는 등록된 브랜치의 상세한 정보를 확인 가능하다.
 
-##### 브랜치 상태 확인
--- `merged` 옵션
+##### 2. 브랜치 상태 확인
+① `merged` 옵션
 ```sh
 $ git branch --merged
 ```
 - 이미 merge 한 브랜치 목록을 확인
 
--- `no-merged` 옵션
+② `no-merged` 옵션
 ```sh
 $ git branch --no-merged
 ```
